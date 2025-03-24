@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .product { border: 1px solid #ddd; padding: 10px; margin: 10px; display: inline-block; }
+        img { width: 200px; height: 200px; }
+        .button { background: blue; color: white; padding: 10px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Магазин товаров</h1>
+    <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Товар 1">
+        <p>Товар 1</p>
+        <p>Цена: 1000 KZT</p>
+        <button class="button" onclick="alert('Заказ оформлен!')">Заказать</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Товар 2">
+        <p>Товар 2</p>
+        <p>Цена: 2000 KZT</p>
+        <button class="button" onclick="alert('Заказ оформлен!')">Заказать</button>
+    </div>
+</body>
+</html>
